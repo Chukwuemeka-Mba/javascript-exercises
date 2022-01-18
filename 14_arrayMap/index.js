@@ -31,5 +31,6 @@ return: ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
 const pokemon = ["Bulbasaur", "Charmander", "Squirtle"];
 // -->          ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
 // Your code here
-const Pokemon = pokemon.map((x) => "<p>" + x + "</p>");
+const Pokemon = pokemon.map((x) => `<p>${x}</p>`);
 console.log(Pokemon);
+//? The arguments of a function are returned in javascript by using template literals.
